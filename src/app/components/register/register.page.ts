@@ -25,10 +25,10 @@ export class RegisterPage implements OnInit {
   OnRegister(){
     if(this.password != this.cpassword){
       this.showAlert("Error!","Contraseña no coincide");
-      return console.error("Contraseña nono coindice")
+      return console.error("Contraseña no coindice")
     }else{
       this.auth.register(this.email,this.password,this.name).then(res=>{
-        this.showAlert("Success!","Bienvenido a Nancy");
+        this.showAlert("Success!","Bienvenid@ "+this.name);
         this.router.navigate(['./home']);
       }).catch(err=> this.showAlert("Error:",err))
     }
