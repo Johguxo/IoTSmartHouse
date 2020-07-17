@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-button slot="start" (click)="closeSetting()">
+      <ion-icon name="close"></ion-icon>
+    </ion-button>
+    <ion-title>Setting</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div id="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label>Estilo: {{color}}</ion-label>
+            <ion-select placeholder="Seleccionar estilo">
+              <ion-select-option value="0">Dark</ion-select-option>
+              <ion-select-option value="1">Light</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <iframe src="https://shiftr.io/sergtello/PetCan/embed?zoom=1" width="300" 
+            height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+          </iframe>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

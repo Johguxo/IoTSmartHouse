@@ -1,0 +1,7 @@
+{
+  "name": "IoTSmart",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

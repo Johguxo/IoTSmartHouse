@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-button slot="start" (click)="closeControl()">
+      <ion-icon name="close"></ion-icon>
+    </ion-button>
+    <ion-title>Control</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding>
+  <div id="container">
+    <!--<ion-fab-button *ngIf="encendido" color="primary">
+      <ion-icon name="bulb"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-button *ngIf="!encendido" color="favorite">
+      <ion-icon name="bulb"></ion-icon>
+    </ion-fab-button>-->
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-img [src]="imgBtn" style="align-items: center"></ion-img>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-button (click)="changeStatus()" shape="round" [color]="colorBtn" style="color:black">{{textBtn}}</ion-button>
+          <!--<h3>Bit Inicio: {{inicio}}</h3>
+          <h3>Bit Paridad: {{paridad}}</h3>
+          <h3>Bit Estado: {{estado}}</h3>
+          <h3>Bit Encendido Lampara: {{encendido}}</h3>
+          <h3>Bit Confirmacion: {{confirmacion}}</h3>
+          <h3>Bit Cierre: {{cierre}}</h3>-->
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>

@@ -1,0 +1,51 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <strong>{{name}}'s Home</strong>
+          <ion-toolbar>
+            <ion-title size="small">Puedes seleccionar una de las opciones</ion-title>
+          </ion-toolbar>
+        </ion-col>
+      </ion-row>
+      <ion-row center>
+        <ion-col>
+          <ion-fab-button color="primary" (click)="openControl()">
+            <ion-icon name="bulb"></ion-icon>
+          </ion-fab-button>
+        </ion-col>
+        <ion-col>
+          <ion-fab-button color="medium" (click)="openMonitor()">
+            <ion-icon name="pulse"></ion-icon>
+          </ion-fab-button>
+        </ion-col>
+        <ion-col>
+          <ion-fab-button color="favorite" (click)="openSetting()">
+            <ion-icon name="construct"></ion-icon>
+          </ion-fab-button>
+        </ion-col>
+      </ion-row>
+      <br><br><br><br><br>
+      <ion-row>
+        <ion-col>
+          <p>Ionic/MQTT</p>
+          <p>
+            <a href="https://github.com/Johguxo/IoTSmartHouse" target="_blank" rel="noopener noreferrer">Para más información del proyecto</a>
+          </p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+</ion-content>
+<ion-footer>
+  <div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-button style="display: grid;" color="dark" (click)="OnLogOut()">Cerrar Sesion</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  </div>
+</ion-footer>
