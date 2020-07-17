@@ -19,10 +19,6 @@ _Autores del proyecto_
 * **Sergio Tello** - *Protocolo MQTT*
 * **Victor Colquichagua** - *Base de Datos*
 
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
