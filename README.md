@@ -9,7 +9,7 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [Ionic](https://ionicframework.com/) - El framework usado
 * [MQTT-Angular](https://www.npmjs.com/package/paho-mqtt/) - Libreria para comunicación IoT
 * [Firebase](https://ionicframework.com/docs/native/firebase) - Base de datos usada
-
+* [ESP32](https://github.com/Johguxo/IoTSmartController)
 ## Autores ✒️
 
 _Autores del proyecto_
